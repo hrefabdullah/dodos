@@ -6,7 +6,6 @@ const App = () => {
   
   const [task, setTask] = useState('');
   const [tasks, setTasks] = useState([
-    { todo: 'Go to gym', complete: false },
   ]);
   
   useEffect(() => {
